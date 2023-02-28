@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    padding-left: 20px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: #7b372e;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.nav-title h2 {
+    color: #af684a;
+    font-size: 2rem;
+}
+
+.links {
+    font-size: 18px;
+}
+
+.links a {
+    color: #af684a;
+    text-decoration: none;
+    padding: 13px 10px 13px 10px;
+}
+
+.links a:hover {
+    background-color: #dfc8c2;
+}
+
+.container {
+    color: black;
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+    margin-inline: auto;
+}
+
+.photoperfil {
+    height: 200px;
+    border-radius: 100%;
+}
+
+.titlesection {
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    color: #af684a;
+}
+
+.jumbotron {
+    margin-bottom: 100px;
+}
+
+figure,
+.figure {
+    margin-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+figure > a > img,
+.figure > a > img {
+      margin-bottom: 10px;
+}
+
+.figcaption {
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+.figure {
+    display: flexbox;
+}
+
+
+.grid-container {
+    display: flexbox;
+    grid-template-columns: 30% 30%;
+}
+}
+
+@media (min-width: 992px) {
+.grid-container {
+display: grid;
+grid-template-columns: 33% 33% 33%;
+}
+
+}
